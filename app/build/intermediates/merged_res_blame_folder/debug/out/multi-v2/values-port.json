@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "org.tensorflow.codelabs.objectdetection.app-mergeDebugResources-13:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\frant\\.gradle\\caches\\8.9\\transforms\\efa3b6558502f3ee4cb8614c26d7460a\\transformed\\appcompat-1.2.0\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}
