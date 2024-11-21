@@ -4,6 +4,7 @@ Thumbs.db
 
 # Archivos generados por compilación
 /build/
+*.apk
 /app/build/
 /*.iml
 
@@ -37,8 +38,6 @@ out/
 *.war
 *.ear
 
-# Directorios de configuración locales de Android
-/local.properties
 
 # Archivos de configuración del sistema operativo
 *.swp
@@ -48,12 +47,10 @@ out/
 
 # Archivos de configuración específicos de Android
 /.idea/
-/build/
 /captures/
 /output.json
 
 # Archivos y carpetas de bibliotecas
-**/build/
 **/bin/
 **/local.properties
 **/*.keystore
