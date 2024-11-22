@@ -1,0 +1,66 @@
+# Ignorar APKs y otros archivos generados
+*.apk
+*.aar
+*.ap_
+*.aab
+*.dex
+*.class
+*.jar
+
+# Ignorar archivos de configuración de Android Studio
+/.idea
+/.gradle
+/local.properties
+/captures
+
+# Ignorar directorios generados
+/build
+/app/build
+/.cxx
+/externalNativeBuild
+
+# Ignorar archivos de configuración de la IDE
+*.iml
+*.hprof
+
+# Ignorar archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de caché
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Ignorar archivos de configuración de IntelliJ IDEA
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/dictionaries
+.idea/httpRequests
+
+# Ignorar archivos específicos de dispositivos de desarrollo local
+/gradle/
+/build.gradle
+/settings.gradle
+
+# Ignorar archivos de Log
+*.log
+
+# Ignorar archivos específicos de Android
+*.so
+*.mk
+*.o
+*.cmake
+*.cxx
+
+# Ignorar archivos generados por ProGuard
+proguard/
+proguard-rules.pro
+proguard-dump.txt
+proguard-seeds.txt
+proguard
