@@ -9,8 +9,7 @@ android {
     namespace 'org.tensorflow.plants.detection'
     defaultConfig {
         applicationId "org.tensorflow.plants.detection"
-        minSdkVersion 23
-
+        minSdkVersion 24
         versionCode 1
         versionName "1.0"
 
