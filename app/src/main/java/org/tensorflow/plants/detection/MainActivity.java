@@ -57,16 +57,13 @@ public class MainActivity extends AppCompatActivity {
         ImageView imageView5 = findViewById(R.id.imageView5);
 
         //Configuración del click realizado en cada una de las imágenes
-        View.OnClickListener imageClickListener = new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                ImageView imageView = (ImageView) view;
-                //Actualización de la vista central con la imagen seleccionada
-                selectedImageView.setImageDrawable(imageView.getDrawable());
-                //Llamada a classifyImage para clasificar la imagen en base al modelo entrenado y mostramos el resultado
-                String result = classifyImage(imageView);
-                resultTextView.setText(result);
-            }
+        View.OnClickListener imageClickListener = view -> {
+            ImageView imageView = (ImageView) view;
+            //Actualización de la vista central con la imagen seleccionada
+            selectedImageView.setImageDrawable(imageView.getDrawable());
+            //Llamada a classifyImage para clasificar la imagen en base al modelo entrenado y mostramos el resultado
+            String result = classifyImage(imageView);
+            resultTextView.setText(result);
         };
         //Asigno el evento click a cada una de las imágenes.
         imageView1.setOnClickListener(imageClickListener);

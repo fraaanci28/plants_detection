@@ -5,4 +5,11 @@
     <string name="tv_placeholder">Object detection demo</string>
     <string name="_galeria">Galería</string>
     <string name="_camara">Cámara</string>
+    <string name="msg_selecciona_una_imagen">Selecciona una imagen</string>
+    <string name="imagen_precargada_dataset_1">Imagen precargada dataset 1</string>
+    <string name="imagen_precargada_dataset_2">Imagen precargada dataset 2</string>
+    <string name="imagen_precargada_dataset_3">Imagen precargada dataset 3</string>
+    <string name="imagen_precargada_dataset_4">Imagen precargada dataset 4</string>
+    <string name="imagen_precargada_dataset_5">Imagen precargada dataset 5</string>
+    <string name="imagen_central">Imagen central</string>
 </resources>
