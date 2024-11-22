@@ -1,4 +1,0 @@
-org.tensorflow.codelabs.objectdetection.test.app-androidTest-0 C:\Users\frant\AndroidStudioProjects\ObjectDetectionBase\app\build\generated\res\resValues\androidTest\debug
-org.tensorflow.codelabs.objectdetection.test.app-mergeDebugAndroidTestResources-1 C:\Users\frant\AndroidStudioProjects\ObjectDetectionBase\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-org.tensorflow.codelabs.objectdetection.test.app-mergeDebugAndroidTestResources-2 C:\Users\frant\AndroidStudioProjects\ObjectDetectionBase\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-org.tensorflow.codelabs.objectdetection.test.app-merged_res-3 C:\Users\frant\AndroidStudioProjects\ObjectDetectionBase\app\build\intermediates\merged_res\debugAndroidTest
