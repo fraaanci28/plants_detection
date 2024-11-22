@@ -7,21 +7,31 @@
 *.class
 *.jar
 
-# Ignorar archivos de configuración de Android Studio
-/.idea
-/.gradle
+# Ignorar archivos de configuración local y generados
 /local.properties
 /captures
 
-# Ignorar directorios generados
+# Ignorar directorios generados por Gradle y Android Studio
 /build
 /app/build
 /.cxx
 /externalNativeBuild
 
-# Ignorar archivos de configuración de la IDE
+# Ignorar archivos de configuración de la IDE (excepto los necesarios para compartir el proyecto)
 *.iml
-*.hprof
+.idea/
+!.idea/modules.xml
+.idea/caches
+.idea/libraries
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/dictionaries
+.idea/httpRequests
 
 # Ignorar archivos específicos del sistema operativo
 .DS_Store
@@ -30,33 +40,9 @@ Thumbs.db
 # Ignorar archivos de caché
 .idea/caches
 .idea/libraries
-.idea/modules.xml
-.idea/workspace.xml
-.idea/navEditor.xml
-.idea/assetWizardSettings.xml
-
-# Ignorar archivos de configuración de IntelliJ IDEA
-.idea/compiler.xml
-.idea/encodings.xml
-.idea/misc.xml
-.idea/vcs.xml
-.idea/dictionaries
-.idea/httpRequests
 
 # Ignorar archivos específicos de dispositivos de desarrollo local
-/gradle/
-/build.gradle
-/settings.gradle
-
-# Ignorar archivos de Log
-*.log
-
-# Ignorar archivos específicos de Android
-*.so
-*.mk
-*.o
-*.cmake
-*.cxx
+.gradle/
 
 # Ignorar archivos generados por ProGuard
 proguard/
@@ -64,3 +50,33 @@ proguard-rules.pro
 proguard-dump.txt
 proguard-seeds.txt
 proguard
+
+# Ignorar archivos de Log
+*.log
+
+# Ignorar archivos binarios y de compilación
+*.so
+*.mk
+*.o
+*.cmake
+*.cxx
+
+# Incluir archivos esenciales para Gradle
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+!gradle.properties
+
+# Incluir configuraciones globales necesarias para Gradle y el proyecto
+!build.gradle
+!settings.gradle
+!app/build.gradle
+
+# Ignorar configuraciones específicas del entorno local
+*.keystore
+*.jks
+
+# Ignorar claves privadas y archivos sensibles
+*.key
+*.pem
+*.crt
+*.der
